@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="eafd072b-ca4e-477c-bac6-aec911540bc4">
+	<Catalog uuid="85a3c94a-e277-4a36-a28b-820391cd7326">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Пользователи" category="Object">
-				<xr:TypeId>daec7ee3-1c6b-4fe4-9b8f-7b75fd19c9bd</xr:TypeId>
-				<xr:ValueId>2aa017b6-8755-4fbd-9e78-d4f3ad3cc83e</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Документы" category="Object">
+				<xr:TypeId>95c9078c-8cb8-415a-b5e9-92e0ebcb9f7a</xr:TypeId>
+				<xr:ValueId>8768a62f-906c-4ae8-a0fa-604a477e985a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Пользователи" category="Ref">
-				<xr:TypeId>b80a6784-9dbc-4daf-8b02-57b1dff4193f</xr:TypeId>
-				<xr:ValueId>1cfc5605-be78-42fe-b3eb-60b532c5125b</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Документы" category="Ref">
+				<xr:TypeId>37cd7d21-53c9-4133-abd7-7ab019579a56</xr:TypeId>
+				<xr:ValueId>0f6e6ccb-5475-4f96-83cf-2b9ca865784b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Пользователи" category="Selection">
-				<xr:TypeId>cbfecf48-6e5c-43c7-bfdf-df0fd08a7c2d</xr:TypeId>
-				<xr:ValueId>5f5ebb71-b452-45df-b354-167a79fea210</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Документы" category="Selection">
+				<xr:TypeId>18da1961-4ea7-4e13-83f6-1f9ca7932ee8</xr:TypeId>
+				<xr:ValueId>eac2cd5e-69b2-45a1-a57e-a272e8ceddd4</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Пользователи" category="List">
-				<xr:TypeId>25690511-e705-41cb-bbf5-ec5c85f4395b</xr:TypeId>
-				<xr:ValueId>1c74124d-b972-4b70-995c-2f1cbd5ddaf4</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Документы" category="List">
+				<xr:TypeId>fd377dca-3b15-4e3a-8888-8fbed0e57ab0</xr:TypeId>
+				<xr:ValueId>bd3a7df0-3fb3-4caa-84ca-415e449d4473</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Пользователи" category="Manager">
-				<xr:TypeId>3ed22ddb-fbf2-434f-8123-2e501443700b</xr:TypeId>
-				<xr:ValueId>b7b2c51d-73be-4f7e-894b-bc6e7294d4eb</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Документы" category="Manager">
+				<xr:TypeId>f0063616-5e04-48cb-ad8c-89a5dcf3b615</xr:TypeId>
+				<xr:ValueId>9d3fc94a-d95b-40fe-9cd9-1cfb5bb97ad5</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Пользователи</Name>
+			<Name>Документы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Пользователи</v8:content>
+					<v8:content>Документы</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -54,8 +54,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Пользователи.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Пользователи.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Документы.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Документы.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -87,18 +87,22 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="d9f908b9-27af-4a1e-91d4-1b975cdb80fa">
+			<Attribute uuid="3ad8b106-58db-4b06-9b27-5d129304feb1">
 				<Properties>
-					<Name>Идентификатор</Name>
+					<Name>Автор</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Идентификатор</v8:content>
+							<v8:content>Автор</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>v8:UUID</v8:Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -111,7 +115,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
+					<FillValue xsi:type="xs:string"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -123,7 +127,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Use>ForItem</Use>
 					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>DontUse</FullTextSearch>
+					<FullTextSearch>Use</FullTextSearch>
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>

@@ -190,6 +190,8 @@
 			<Language>Русский</Language>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
+			<Role>Роль1</Role>
+			<Role>Роль2</Role>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
@@ -199,6 +201,10 @@
 			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
 			<Catalog>Файлы</Catalog>
 			<Catalog>Документы</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>ЕдиницыИзмеренияНоменклатуры</Catalog>
+			<Catalog>ВидыДокументов</Catalog>
+			<Document>Документ1</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

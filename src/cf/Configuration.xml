@@ -204,6 +204,7 @@
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ЕдиницыИзмеренияНоменклатуры</Catalog>
 			<Catalog>ВидыДокументов</Catalog>
+			<Catalog>ВнутренниеДокументы</Catalog>
 			<Document>Документ1</Document>
 		</ChildObjects>
 	</Configuration>

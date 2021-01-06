@@ -192,6 +192,7 @@
 			<Role>Администратор</Role>
 			<Role>Роль1</Role>
 			<Role>Роль2</Role>
+			<CommonModule>РаботаСПользователями</CommonModule>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>

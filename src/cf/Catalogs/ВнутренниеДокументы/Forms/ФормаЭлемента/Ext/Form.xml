@@ -28,11 +28,11 @@
 			<ContextMenu name="АвторКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="12"/>
 		</InputField>
-		<InputField name="Контрагенты" id="13">
-			<DataPath>Объект.Контрагенты</DataPath>
+		<InputField name="Контрагент" id="13">
+			<DataPath>Объект.Контрагент</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="КонтрагентыКонтекстноеМеню" id="14"/>
-			<ExtendedTooltip name="КонтрагентыРасширеннаяПодсказка" id="15"/>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="КонтактноеЛицо" id="16">
 			<DataPath>Объект.КонтактноеЛицо</DataPath>
@@ -40,28 +40,21 @@
 			<ContextMenu name="КонтактноеЛицоКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="КонтактноеЛицоРасширеннаяПодсказка" id="18"/>
 		</InputField>
-		<InputField name="Вид" id="19">
-			<DataPath>Объект.Вид</DataPath>
-			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="ВидКонтекстноеМеню" id="20"/>
-			<ExtendedTooltip name="ВидРасширеннаяПодсказка" id="21"/>
-		</InputField>
-		<InputField name="Комментарий" id="22">
+		<InputField name="Комментарий" id="19">
 			<DataPath>Объект.Комментарий</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ContextMenu name="КомментарийКонтекстноеМеню" id="23"/>
-			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="24"/>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="21"/>
 		</InputField>
-		<CheckBoxField name="ЭтоДоговор" id="25">
-			<DataPath>Объект.ЭтоДоговор</DataPath>
+		<InputField name="ВидДокумента" id="22">
+			<DataPath>Объект.ВидДокумента</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="ЭтоДоговорКонтекстноеМеню" id="26"/>
-			<ExtendedTooltip name="ЭтоДоговорРасширеннаяПодсказка" id="27"/>
+			<ContextMenu name="ВидДокументаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ВидДокументаРасширеннаяПодсказка" id="24"/>
 			<Events>
-				<Event name="OnChange">ЭтоДоговорПриИзменении</Event>
+				<Event name="ChoiceProcessing">ВидОбработкаВыбора</Event>
 			</Events>
-		</CheckBoxField>
+		</InputField>
 		<Table name="Предметы" id="28">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -103,11 +96,11 @@
 					<ContextMenu name="ПредметыНомерСтрокиКонтекстноеМеню" id="42"/>
 					<ExtendedTooltip name="ПредметыНомерСтрокиРасширеннаяПодсказка" id="43"/>
 				</LabelField>
-				<InputField name="ПредметыФайл" id="44">
-					<DataPath>Объект.Предметы.Файл</DataPath>
+				<InputField name="ПредметыПредмет" id="44">
+					<DataPath>Объект.Предметы.Предмет</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ПредметыФайлКонтекстноеМеню" id="45"/>
-					<ExtendedTooltip name="ПредметыФайлРасширеннаяПодсказка" id="46"/>
+					<ContextMenu name="ПредметыПредметКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ПредметыПредметРасширеннаяПодсказка" id="46"/>
 				</InputField>
 			</ChildItems>
 		</Table>
